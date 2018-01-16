@@ -1,5 +1,5 @@
 html {
-  font-family: Georgia;
+  font-family: serif;
 }
 
 .btn-ghost {
@@ -23,7 +23,14 @@ html {
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: #495562;
   color: #fff;
   width: 100%;
+}
+
+@media only screen and (min-width: 38em) {
+
+.info {
+  background-color: #495562;
+}
+
 }
