@@ -6,11 +6,11 @@ html {
 .btn-ghost {
   color: #fff;
   border-color: #fff;
-  background-color: #97a49b;
+  background-color: transparent;
 }
 
 .btn-ghost:hover {
-  background-color: #efefef;
+  background-color: #97a49b;
   color: #495562;
   border-color: #efefef;
 }
