@@ -1,3 +1,29 @@
 html {
-  font-family: "georgia" sans-serif;
+  font-family: Georgia;
+}
+
+.btn-ghost {
+  background-color: #97a49b;
+  color: #fff;
+}
+
+.btn-ghost:hover {
+  background-color: #efefef;
+  color: #495562;
+  border-color: #efefef;
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+  max-height: 500px;
+}
+
+.info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #495562;
+  color: #fff;
+  width: 100%;
 }
